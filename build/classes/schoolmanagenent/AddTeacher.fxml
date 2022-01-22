@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="1265.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.AddTeacherController">
+   <children>
+      <Label layoutX="321.0" layoutY="125.0" text="Name :" />
+      <Label layoutX="324.0" layoutY="179.0" text="Age :" />
+      <Label layoutX="282.0" layoutY="216.0" text="Date Of Birth :" />
+      <Label layoutX="266.0" layoutY="310.0" text="Phone Number :" />
+      <Label layoutX="314.0" layoutY="261.0" text="Group :" />
+      <Label layoutX="309.0" layoutY="362.0" text="Adress :" />
+      <TextField fx:id="name" layoutX="423.0" layoutY="121.0" />
+      <TextField fx:id="age" layoutX="423.0" layoutY="172.0" />
+      <TextField fx:id="date" layoutX="423.0" layoutY="214.0" />
+      <TextField fx:id="phone" layoutX="423.0" layoutY="306.0" />
+      <TextField fx:id="religion" layoutX="423.0" layoutY="357.0" />
+      <Button layoutX="520.0" layoutY="433.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button layoutX="368.0" layoutY="433.0" mnemonicParsing="false" text="Clear" />
+      <ChoiceBox fx:id="choice" layoutX="423.0" layoutY="257.0" prefWidth="150.0" />
+      <Label layoutX="605.0" layoutY="218.0" text="(dd-mm-yyyy)" />
+   </children>
+</AnchorPane>

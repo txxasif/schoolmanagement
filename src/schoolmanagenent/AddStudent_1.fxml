@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="1265.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.AddStudent_1Controller">
+   <children>
+      <Label layoutX="449.0" layoutY="111.0" prefHeight="17.0" prefWidth="69.0" text="Name  :" />
+      <TextField fx:id="n" layoutX="530.0" layoutY="108.0" />
+      <Label layoutX="391.0" layoutY="381.0" text="Phone Number  :" />
+      <Label layoutX="389.0" layoutY="439.0" text="Parent Number  :" />
+      <Label layoutX="444.0" layoutY="242.0" text="Group  :" />
+      <Label layoutX="441.0" layoutY="159.0" text="Gender  :" />
+      <Label layoutX="464.0" layoutY="334.0" text="ID :" />
+      <TextField fx:id="n4" layoutX="530.0" layoutY="287.0" />
+      <TextField fx:id="n5" layoutX="530.0" layoutY="330.0" />
+      <TextField fx:id="n6" layoutX="530.0" layoutY="377.0" />
+      <Label layoutX="448.0" layoutY="291.0" text="Class  :" />
+      <TextField fx:id="n7" layoutX="530.0" layoutY="435.0" />
+      <Button layoutX="629.0" layoutY="500.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button layoutX="531.0" layoutY="499.0" mnemonicParsing="false" text="Clear" />
+      <Label layoutX="415.0" layoutY="203.0" text="Date Of Birth:" />
+      <TextField fx:id="n2" layoutX="530.0" layoutY="196.0" />
+      <ChoiceBox fx:id="choicebox" layoutX="530.0" layoutY="155.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choicebox1" layoutX="528.0" layoutY="239.0" prefWidth="150.0" />
+      <Label layoutX="703.0" layoutY="200.0" text="(dd-mm-yyyy)" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="1265.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.StudentInfoController">
+   <children>
+      <Label layoutX="24.0" layoutY="21.0" prefHeight="25.0" prefWidth="64.0" text="Enter Class:" />
+      <TextField fx:id="clas" layoutX="96.0" layoutY="21.0" prefHeight="25.0" prefWidth="120.0" />
+      <Button layoutX="433.0" layoutY="21.0" mnemonicParsing="false" onAction="#go" text="Go" />
+      <BorderPane fx:id="b" layoutX="5.0" layoutY="77.0" prefHeight="601.0" prefWidth="415.0" style="-fx-background-color: ;">
+         <center>
+            <TableView fx:id="StudentTable" onMouseClicked="#click" prefHeight="589.0" prefWidth="415.0" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn fx:id="name" prefWidth="230.0" text="NAME" />
+                  <TableColumn fx:id="clas1" prefWidth="84.0" text="Class" />
+                  <TableColumn fx:id="id1" prefWidth="99.0" text="ID" />
+               </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+      <TextField fx:id="id" layoutX="260.0" layoutY="21.0" />
+      <Label layoutX="231.0" layoutY="25.0" text="ID :" />
+      <BorderPane fx:id="b1" layoutX="438.0" layoutY="78.0" prefHeight="601.0" prefWidth="827.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.NoticeBoardController">
+   <children>
+      <ScrollPane prefHeight="651.0" prefWidth="1274.0">
+         <content>
+            <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="1370.0" prefWidth="1274.0" style="-fx-background-color: silver;">
+               <children>
+                  <Label fx:id="welcome" layoutX="431.0" layoutY="23.0" prefHeight="40.0" prefWidth="445.0" text="WELCOME ">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="84.0" prefHeight="45.0" prefWidth="1239.0" style="-fx-background-color: #72827c;" text="Result Notice :" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="notice" layoutX="242.0" layoutY="136.0" prefHeight="57.0" prefWidth="692.0" style="-fx-background-color: #579c9a;" text="Your result will be published on 21st August.">
+                     <font>
+                        <Font name="System Italic" size="30.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="1.0" centerY="1.0" radius="0.5">
+                           <stops>
+                              <Stop color="#f5faf90f" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <Label fx:id="midnotice" layoutX="117.0" layoutY="217.0" prefHeight="45.0" prefWidth="459.0" style="-fx-background-color: #41424d;" text="Your Mid-Term result has been published." textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="finalnotice" layoutX="616.0" layoutY="217.0" prefHeight="45.0" prefWidth="459.0" style="-fx-background-color: #41424d;" text="Your Final result has been published." textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="963.0" prefHeight="45.0" prefWidth="1198.0" style="-fx-background-color: #72827c;" text="About US :" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="209.0" layoutY="1009.0" prefHeight="72.0" prefWidth="770.0" style="-fx-background-color: #05687d;" text="Daffodil International University is a private university located in Dhanmondi, Dhaka, Bangladesh." textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="209.0" layoutY="1054.0" prefHeight="57.0" prefWidth="770.0" style="-fx-background-color: #05687d;" text="It was established on 24 January 2002 under the Private University Act By IUBAT, 1992." textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="210.0" layoutY="1121.0" prefHeight="35.0" prefWidth="528.0" style="-fx-background-color: #042633;" text="Address: 4/2, Sobhanbag, Mirpur Rd, Dhaka 1207" textFill="#f2f2f2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="210.0" layoutY="1159.0" prefHeight="35.0" prefWidth="528.0" style="-fx-background-color: #042633;" text="Chairperson : Md. Sabur Khan" textFill="#f2f2f2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="210.0" layoutY="1195.0" prefHeight="35.0" prefWidth="528.0" style="-fx-background-color: #042633;" text="Phone :    02-48111639" textFill="#f2f2f2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="210.0" layoutY="1232.0" prefHeight="35.0" prefWidth="528.0" style="-fx-background-color: #042633;" text="Email: int.admission@daffodilvarsity.edu.bd" textFill="#f2f2f2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="270.0" prefHeight="45.0" prefWidth="1245.0" style="-fx-background-color: #72827c;" text="Photos:" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="298.0" fitWidth="706.0" layoutX="17.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/diu1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="298.0" fitWidth="409.0" layoutX="617.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2019_08_02_15_32_IMG_4402.JPG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="348.0" fitWidth="758.0" layoutX="17.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2019_08_02_15_33_IMG_4404.JPG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="324.0" fitWidth="692.0" layoutX="779.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2019_08_02_15_32_IMG_4401.JPG" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="205.0" fitWidth="245.0" layoutX="1011.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2019_08_02_15_32_IMG_4403.JPG" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="-66.0" layoutY="36.0" prefHeight="200.0" prefWidth="200.0" />
+                  <Button fx:id="editt" layoutX="969.0" layoutY="152.0" mnemonicParsing="false" onAction="#edit" prefHeight="31.0" prefWidth="71.0" text="Edit" />
+                  <TextField fx:id="field1" layoutX="240.0" layoutY="136.0" prefHeight="57.0" prefWidth="694.0" />
+                  <Button fx:id="savee" layoutX="1057.0" layoutY="153.0" mnemonicParsing="false" onAction="#save" prefHeight="30.0" prefWidth="71.0" text="Save" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

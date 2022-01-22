@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="827.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.StudentInformation1Controller">
+   <children>
+      <Label fx:id="text" layoutX="290.0" layoutY="61.0" prefHeight="17.0" prefWidth="125.0" text="Name                           :" />
+      <Label fx:id="text1" layoutX="290.0" layoutY="100.0" prefHeight="17.0" prefWidth="125.0" text="Class                             :" />
+      <Label fx:id="text2" layoutX="290.0" layoutY="130.0" prefHeight="17.0" prefWidth="125.0" text="ID                                 :" />
+      <Label fx:id="text3" layoutX="290.0" layoutY="169.0" prefHeight="17.0" prefWidth="125.0" text="Gender                        :" />
+      <Label fx:id="text4" layoutX="290.0" layoutY="209.0" prefHeight="17.0" prefWidth="125.0" text="Date Of Birth               :" />
+      <Label fx:id="text5" layoutX="290.0" layoutY="250.0" prefHeight="17.0" prefWidth="125.0" text="Group                         :" />
+      <Label fx:id="text6" layoutX="290.0" layoutY="317.0" prefHeight="17.0" prefWidth="125.0" text="Phone Number           :" />
+      <Label fx:id="text7" layoutX="290.0" layoutY="361.0" prefHeight="17.0" prefWidth="125.0" text="Parent Phone Number :" />
+      <Button layoutX="342.0" layoutY="422.0" mnemonicParsing="false" onAction="#result" prefHeight="25.0" prefWidth="167.0" text="View Result" />
+      <Label fx:id="l1" layoutX="495.0" layoutY="61.0" prefHeight="17.0" prefWidth="133.0" text="Label" />
+      <Label fx:id="l2" layoutX="495.0" layoutY="100.0" prefHeight="17.0" prefWidth="109.0" text="Label" />
+      <Label fx:id="l3" layoutX="495.0" layoutY="139.0" prefHeight="17.0" prefWidth="67.0" text="Label" />
+      <Label fx:id="l4" layoutX="495.0" layoutY="175.0" text="Label" />
+      <Label fx:id="l5" layoutX="495.0" layoutY="209.0" prefHeight="17.0" prefWidth="117.0" text="Label" />
+      <Label fx:id="l6" layoutX="495.0" layoutY="250.0" prefHeight="17.0" prefWidth="95.0" text="Label" />
+      <Label fx:id="l7" layoutX="495.0" layoutY="318.0" prefHeight="17.0" prefWidth="117.0" text="Label" />
+      <Label fx:id="l8" layoutX="495.0" layoutY="361.0" prefHeight="17.0" prefWidth="101.0" text="Label" />
+      <Label layoutX="290.0" layoutY="286.0" prefHeight="17.0" prefWidth="117.0" text="Email                          :" />
+      <Label fx:id="l9" layoutX="495.0" layoutY="286.0" text="Label" />
+   </children>
+</AnchorPane>

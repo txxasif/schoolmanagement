@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="1274.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.AllTeacherController">
+   <children>
+      <TableView fx:id="teachertable" layoutX="2.0" layoutY="5.0" onMouseClicked="#mouseC" prefHeight="644.0" prefWidth="590.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="167.0" text="Name" />
+          <TableColumn fx:id="group" prefWidth="174.0" text="Group" />
+            <TableColumn fx:id="phone" prefWidth="187.0" text="Phone" />
+        </columns>
+      </TableView>
+      <BorderPane fx:id="bpane" layoutX="637.0" layoutY="33.0" prefHeight="584.0" prefWidth="590.0" />
+   </children>
+</AnchorPane>

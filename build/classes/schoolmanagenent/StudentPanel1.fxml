@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="1265.0" style="-fx-background-color: silver;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schoolmanagenent.StudentPanel1Controller">
+   <children>
+      <Label fx:id="l7" layoutX="528.0" layoutY="486.0" text="Label" textFill="#280303" />
+      <Label fx:id="l88" layoutX="1013.0" layoutY="527.0" text="Label" textFill="#280303" />
+      <Label fx:id="l77" layoutX="1013.0" layoutY="484.0" text="Label" textFill="#280303" />
+      <Label fx:id="l66" layoutX="1013.0" layoutY="450.0" text="Label" textFill="#280303" />
+      <Label fx:id="l55" layoutX="1013.0" layoutY="409.0" text="Label" textFill="#280303" />
+      <Label fx:id="l44" layoutX="1013.0" layoutY="370.0" text="Label" textFill="#280303" />
+      <Label fx:id="l33" layoutX="1013.0" layoutY="329.0" text="Label" textFill="#280303" />
+      <Label fx:id="l22" layoutX="1013.0" layoutY="282.0" text="Label" textFill="#280303" />
+      <Label fx:id="l11" layoutX="1013.0" layoutY="236.0" text="Label" textFill="#280303" />
+      <Label fx:id="l8" layoutX="528.0" layoutY="527.0" text="Label" textFill="#280303" />
+      <Label fx:id="l6" layoutX="528.0" layoutY="452.0" text="Label" textFill="#280303" />
+      <Label fx:id="l5" layoutX="528.0" layoutY="411.0" text="Label" textFill="#280303" />
+      <Label fx:id="l4" layoutX="528.0" layoutY="369.0" text="Label" textFill="#280303" />
+      <Label fx:id="l3" layoutX="528.0" layoutY="329.0" text="Label" textFill="#280303" />
+      <Label fx:id="l2" layoutX="528.0" layoutY="283.0" text="Label" textFill="#280303" />
+      <Label fx:id="l1" layoutX="528.0" layoutY="237.0" prefHeight="17.0" prefWidth="81.0" text="Label" textFill="#280303" />
+      <Label layoutX="739.0" layoutY="236.0" prefHeight="17.0" prefWidth="181.0" text="BANGLA   " textFill="#280303" />
+      <Label layoutX="738.0" layoutY="282.0" prefHeight="17.0" prefWidth="181.0" text="ENGLISH" textFill="#280303" />
+      <Label layoutX="738.0" layoutY="326.0" prefHeight="17.0" prefWidth="181.0" text="MATH" textFill="#280303" />
+      <Label layoutX="737.0" layoutY="367.0" prefHeight="17.0" prefWidth="181.0" text="BANGLADESH STUDIES" textFill="#280303" />
+      <Label layoutX="736.0" layoutY="409.0" prefHeight="17.0" prefWidth="187.0" text="Label" textFill="#280303" fx:id="x11" />
+      <Label layoutX="739.0" layoutY="451.0" prefHeight="17.0" prefWidth="181.0" text="Label" textFill="#280303" fx:id="x22" />
+      <Label layoutX="739.0" layoutY="487.0" prefHeight="17.0" prefWidth="181.0" text="Label" textFill="#280303" fx:id="x33" />
+      <Label layoutX="739.0" layoutY="526.0" prefHeight="17.0" prefWidth="181.0" text="RELIGIOUS" textFill="#280303" />
+      <Label layoutX="943.0" layoutY="236.0" text=":" textFill="#280303" />
+      <Label layoutX="943.0" layoutY="282.0" text=":" textFill="#280303" />
+      <Label layoutX="948.0" layoutY="526.0" text=":" textFill="#280303" />
+      <Label layoutX="942.0" layoutY="369.0" text=":" textFill="#280303" />
+      <Label layoutX="943.0" layoutY="328.0" text=":" textFill="#280303" />
+      <Label layoutX="946.0" layoutY="486.0" text=":" textFill="#280303" />
+      <Label layoutX="946.0" layoutY="452.0" text=":" textFill="#280303" />
+      <Label layoutX="946.0" layoutY="410.0" text=":" textFill="#280303" />
+      <Label layoutX="271.0" layoutY="237.0" prefHeight="31.0" prefWidth="181.0" text="BANGLA   " textFill="#280303">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="270.0" layoutY="283.0" prefHeight="17.0" prefWidth="181.0" text="ENGLISH" textFill="#280303">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="270.0" layoutY="327.0" prefHeight="17.0" prefWidth="181.0" text="MATH" textFill="#280303">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="269.0" layoutY="368.0" prefHeight="17.0" prefWidth="181.0" text="BANGLADESH STUDIES" textFill="#280303">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="268.0" layoutY="410.0" prefHeight="17.0" prefWidth="187.0" text="Label" textFill="#280303" fx:id="x1">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="271.0" layoutY="452.0" prefHeight="17.0" prefWidth="181.0" text="Label" textFill="#280303" fx:id="x2">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="271.0" layoutY="484.0" prefHeight="17.0" prefWidth="181.0" text="Label" textFill="#280303" fx:id="x3">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="271.0" layoutY="527.0" prefHeight="17.0" prefWidth="181.0" text="RELIGIOUS" textFill="#280303">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="475.0" layoutY="237.0" text=":" textFill="#280303" />
+      <Label layoutX="475.0" layoutY="283.0" text=":" textFill="#280303" />
+      <Label layoutX="480.0" layoutY="527.0" text=":" textFill="#280303" />
+      <Label layoutX="474.0" layoutY="370.0" text=":" textFill="#280303" />
+      <Label layoutX="475.0" layoutY="329.0" text=":" textFill="#280303" />
+      <Label layoutX="478.0" layoutY="484.0" text=":" textFill="#280303" />
+      <Label layoutX="478.0" layoutY="453.0" text=":" textFill="#280303" />
+      <Label layoutX="478.0" layoutY="411.0" text=":" textFill="#280303" />
+      <Label layoutX="733.0" layoutY="132.0" prefHeight="39.0" prefWidth="88.0" style="-fx-background-color: #112740;" text="FINAL" textFill="#fffbfb">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="132.0" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #112740;" text="MID-TERM" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="namee" layoutY="1.0" prefHeight="96.0" prefWidth="1265.0" style="-fx-background-color: #112740;" text="                                        Result of" textFill="#fffefe">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
